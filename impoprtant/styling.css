@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #081b29;
+    color: #ededed;
+}
+.header{
+    width: 100%;
+    padding: 25px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    display: flex;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+   
+    margin-left: 35px;
+    font-weight: 500;
+
+}
+.navbar a:hover{
+    color:#00abf0
+}
+div{
+    height: 100%;
+    color: #ededed;
+    align-items: center;
+    border: 30%;
+    border-color: beige;
+}
+.system{
+   
+    
+    height: 50vh;
+    display: flex;
+   align-items: center;
+   padding: 2%;
+   margin: 5%;
+   border-style: solid;
+    
+}
+.system-content{
+    width: 700px;
+    padding: 5%;
+    margin: 10%;
+}
+.system-content h1{
+    font-size: 50px;
+}
+.system-content h3{
+    font-size: 30px;
+    color: #00abf0;
+}
+.system-content p{
+    font-size: 17px;
+    margin: 2%;
+}
+.system-content.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+  
+}
+.btn-box a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 15%;
+    background:transparent;
+    border: 2px solid #00abf0;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight:600px;
+    letter-spacing: 1px;
+    color: #00abf0;
+    transition: .5s;
+}
+.stats{
+    text-align: center;
+    margin-bottom: 10%;
+   padding: 20%;
+   justify-content: space-between;
+}
+.stats a{
+    font-size:larger;
+}
+
+
+.skill{
+    border: solid;
+    width:250px;
+    height: fit-content;
+    bottom: 50px;
+    
+   
+}
+.list{
+    justify-content: space-around;
+    list-style-position: inside;
+    color: #00abf0
+
+}
+.about{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid;
+    padding: 10px;
+    height: fit-content;
+    width: 250px;
+    justify-content: space-between;
+    position: relative;left: 70%;
+    
+   
+}
